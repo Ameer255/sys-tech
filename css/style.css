@@ -1,0 +1,171 @@
+.head{
+    border: 2px solid grey;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    background-color: #264653;
+    /* opacity: 0.5; */
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    margin: 0 10px;
+}
+
+.link{
+    padding: 12px;
+    margin: 0 10px;
+}
+.name h1{
+    color: #f4a261;
+}
+.logo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+}
+.link a{
+    text-decoration: none;
+    color: #f4a261;
+}
+.gallery-parent{
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+.gallery-child{
+    border: 2px solid black;
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.whatsapp-icon{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    background-color: green;
+    height: 60px;
+    width: 60px;
+}
+.whatsapp-icon img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.footer{
+    display: flex;
+    border: 2px solid grey;
+    background-color: #264653;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.footer-child-links{
+    padding: 12px;
+   
+}
+.footer-child-links a{
+    text-decoration: none;
+    color: #f4a261;
+}
+.footer-media-icons{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-child-links h3{
+    color: #f4a261;
+}
+.footer-child-media h5{
+    color: #f4a261;
+}
+.footer-child-media .yt, .footer-child-media .fb, .footer-child-media .ins{
+    background-color: aliceblue;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.gallery-child img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+form{
+    border: 2px solid grey;
+    padding: 5px;
+    background-color: darkseagreen;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-child-number h5, .footer-child-number p{
+    color: #f4a261;
+    margin: 0 10px;
+}
+select{
+    background-color: grey;
+    color: cyan;
+}
+textarea{
+    background-color:lightgrey;
+    color: cyan;
+}
+.fb img{
+    height: 100%;
+    width: 100%;
+    border-radius: 51%;
+}
+.yt img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.ins img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+form input{
+    padding: 6px 4px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+form input[type=text]:focus, form input[type=number]:focus{
+    box-shadow: 6px 5px 5px #264653;
+    border: 2px solid #2a9d8f;
+}
+
+.wel{
+    text-align: center;
+    
+}
+
+.wel-logo{
+    display: flex;
+    justify-content: center;
+}
+.wel-logo img{
+    border-radius: 20px;
+}
+.form-input{
+    width: 300px;
+}
+.form-select{
+    width: 200px;
+}
+.form-checkbox{
+    width: 250px;
+}
+.form-btn{
+    width: 250px;
+}
